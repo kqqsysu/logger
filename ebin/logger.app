@@ -1,0 +1,9 @@
+{application,logger,
+             [{description,"logger"},
+              {vsn,"1.0"},
+              {modules,[dynamic_compile,logger_app,logger_h,loglevel,test]},
+              {registered,[logger]},
+              {applications,[kernel,stdlib]},
+              {mod,{logger_app,[]}},
+              {start_phases,[]},
+              {env,[{log_level,6},{path_log,"./logs"}]}]}.
