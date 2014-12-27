@@ -1,5 +1,7 @@
 Erlang日志系统
 
+启动日志应用:logger_app:start()
+
 可动态控制日志等级:
 loglevel:set(Level)
 
